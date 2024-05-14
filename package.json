@@ -20,11 +20,9 @@
     "itty-router": "^5.0.16"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240502.0",
     "@types/node": "^20.12.7",
     "esbuild": "^0.20.2",
-    "typescript": "^5.4.5",
-    "wrangler": "^3.53.1"
+    "typescript": "^5.4.5"
   },
   "volta": {
     "node": "22.0.0"
