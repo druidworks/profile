@@ -1,10 +1,11 @@
 import { negotiatedCompression } from "@major-tanya/itty-compression";
 import { Router, html, error } from "itty-router";
+import { Edge } from "edge.js";
 
 import { RouteInitializer } from "../types/RouteInitializer.js";
 
 export default {
-  init: (edge?: any) => {
+  init: () => {
     const router = Router({
       base: "/project",
       before: [], // upstream middleware
