@@ -19,6 +19,7 @@ export default {
     });
 
     router
+      .get("/healthy-checking", () => `ok`)
       .get("/about-me", () => `All about me`)
       .get("/kurtosys", () => `Kurtosys Experience`)
       .get("/comprsa", () => `CompRSA Experience`)
