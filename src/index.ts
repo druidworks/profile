@@ -4,7 +4,7 @@ import { createServer } from "http";
 import { router } from "./bootstrap.js";
 
 // Define server port
-const PORT = 3002;
+const PORT = process.env.PORT || 10000;
 
 // create a @whatwg-node/server
 const ittyServer = createServerAdapter(router.fetch);
